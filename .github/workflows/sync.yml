@@ -2,7 +2,7 @@ name: Config Update
 
 on:
   push:
-    branches: [ main ]
+    branches: [ main ,m ]
   workflow_dispatch:
   schedule:
     - cron: '0 12 * * *'
